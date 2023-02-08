@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather app by Mariana Kovalenko</title>
+    <meta charset="UTF-8" />
+    <link href="weatherapp/src/styleweather.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <style>
+      h1 {
+  color: green;
+}
+input{
+  width: 160px;
+}
+.justify-content-center{
+  margin: 10px auto;
+}
+.container-search{
+  display: block;
+  margin: 0;
+  width: 360px;
+  padding: 0;
+
+}
+.btn-primary{
+  background-color:#CCE2F3;
+  border-color:#5AAAFF;
+  color:#5AAAFF;
+  border-radius: 30px;
+}
+.container{
+  width: 360px;
+  height: 480px;
+  border: 1px solid black;
+}
+.row{
+  width: 350px;
+}
+.column{
+  display: block;
+  text-align: justify;
+  width: 160px;
+  border:1px solid black;
+  margin: 5px auto;
+}
+.left{
+  color: green;
+}
+.name-weather{
+  height: 44px;
+}
+ .col-sm-2{
+  display: block;
+  border:1px solid #5AAAFF;
+  padding: 34px 0;
+  margin:3px auto;
+  text-align: center;
+  width: 52px;
+}
+.temp{
+  font-size: xx-small;
+}
+.end{
+  width: 180px;
+  padding: 0;
+  border: 1px solid black;
+  font-size: 12px;
+  display: block;
+  margin: 30px auto 10px;
+  text-align: center;
+}
+  
+    </style>
+  </head>
+
+  <body>
+    <div class="container justify-content-center">
+      <div class="start">
+        <footer>
+          Weather App
+        </footer>
+      </div>
+      <div class="container-search">
+        <input type="text" placeholder="Change a city" />
+        <button type="button" class="btn btn-primary">Seach</button>
+        <button type="button" class="btn btn-primary">Location</button>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="left">
+            <div class="col-sm-10">
+                <h1>KYIV</h1>
+            </div>
+            <div class="col-sm-10">
+                Friday:13:00
+            </div>
+            <div class="col-sm-10">
+              <div class="name-weather">
+                Snow
+              </div>
+            </div>
+            <div class="col-sm-10">
+                Humidity:85%
+            </div>
+            <div class="col-sm-10">
+                Wind: 1km/h
+            </div>
+        </div>
+      </div>
+        <div class="column">
+            <div class="col-sm-10">
+                <h2>Curently</h2>
+            </div>
+            <div class="col-sm-10">
+                -1°C |°F
+            </div>
+            <div class="col-sm-10">
+              <img src="src/snowflake.gif" alt="snowflake" width="48px">
+            </div>
+            <div class="col-sm-10">
+                min -2°C |°F
+            </div>
+            <div class="col-sm-10">
+                min +1°C |°F
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-2">
+          SAT
+          <div class="col-sm">
+            <img src="src/cloudy.gif" alt="snowflake" width="48px">
+          </div>
+          <div class="temp">
+          <div class="col-sm">
+            min -2°C |°F
+          </div>
+          <div class="col-sm">
+            min -2°C |°F
+          </div>
+        </div>
+        </div>
+        <div class="col-sm-2">
+          SUN
+          <div class="col-sm">
+            <img src="src/clouds.gif" alt="snowflake" width="48px">
+          </div>
+          <div class="temp">
+          <div class="col-sm">
+            min -2°C |°F
+          </div>
+          <div class="col-sm">
+            min -2°C |°F
+          </div>
+        </div>
+        </div>
+        <div class="col-sm-2">
+          MON
+          <div class="col-sm">
+            <img src="src/clouds.gif" alt="snowflake" width="48px">
+          </div>
+          <div class="temp">
+          <div class="col-sm">
+            min -2°C |°F
+          </div>
+          <div class="col-sm">
+            min -2°C |°F
+          </div>
+        </div>
+        </div>
+        <div class="col-sm-2">
+          TUY
+          <div class="col-sm">
+            <img src="src/sun.gif" alt="snowflake" width="48px">
+          </div>
+          <div class="temp">
+          <div class="col-sm">
+            min -2°C |°F
+          </div>
+          <div class="col-sm">
+            min -2°C |°F
+          </div>
+        </div>
+        </div>
+        <div class="col-sm-2">
+          WED
+          <div class="col-sm">
+            <img src="src/sun.gif" alt="snowflake" width="48px">
+
+          </div>
+          <div class="temp">
+          <div class="col-sm">
+            min -2°C |°F
+          </div>
+          <div class="col-sm">
+            min -2°C |°F
+          </div>
+        </div>
+        </div>
+        <div class="col-sm-2">
+          THU
+          <div class="col-sm">
+            <img src="src/rain.gif" alt="snowflake" width="48px">
+          </div>
+          <div class="temp">
+          <div class="col-sm">
+            min -2°C |°F
+          </div>
+          <div class="col-sm">
+            min -2°C |°F
+          </div>
+        </div>
+        </div>
+        <div class="end">
+          <footer>
+            Coded by Mariana Kovalenko
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
